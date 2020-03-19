@@ -239,7 +239,6 @@ header .bottom_header nav{
 	color:#ffffff;
 	text-transform: uppercase;
 	padding-bottom: 20px;
-
 }
 
 .container3 .cards .item .text2{
@@ -247,8 +246,6 @@ header .bottom_header nav{
 	font-size: 16px;
 	color:#ffffff;
 	line-height:2;
-
-
 }
 
 .d{
@@ -260,8 +257,7 @@ header .bottom_header nav{
 	background: #ffffff;
 	border-radius: 50%;
 	margin: 0 auto 45px auto;
-
-	}
+}
 
 .item .d i{
 	color:#ffc000;
@@ -322,7 +318,6 @@ header .bottom_header nav{
 
 }
 
-
 .container6 .grid_6 .item6 i{
 	display:flex ;
     width: 90px;
@@ -347,7 +342,6 @@ header .bottom_header nav{
 	text-align: left;
 	line-height: 1.5;
 	margin-top: -10px;
-
 }
 
 
@@ -355,7 +349,6 @@ header .bottom_header nav{
 	display: flex;
 	justify-content: center;
 	margin-bottom: 40px;
-
 }
 
 .container7 ul li{
@@ -371,76 +364,67 @@ header .bottom_header nav{
 .container7 ul li:hover{
 	color:#ffc000;
 }
+
 .container7 .grid_block{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr; /* repeat(4 1fr) */
 	grid-template-rows: auto;
 }
-/*  */
- /* .item1{
-	background-image: url(/image/photo1.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-  	
-}
-.container7 .grid_block .item2{
-	
-	background: url(./image/photo2.png);
-    background-size: cover;
-}
-.container7 .grid_block .item3{
-	background: url(./image/photo3.png);
-    background-size: cover;
-}
-.container7 .grid_block .item4{
-	background: url(./image/photo4.png);
-    background-size: cover;
-}
+
 .container7 .grid_block .item{
-	background-color: yellow;
-    display: none;
-    padding-bottom: 45%;
-    padding-top: 45%;
-        
-}
-.container7 .grid_block .item1:hover{
-    
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	opacity: 0.5;}  */
-.container7 .grid_block img{
-	max-width: 100%;
-	object-fit: cover;
-	height: 100%;
-}
-.container7 .grid_block i{
-	display: none;
-	color: #ffffff;
-	font-size: 40px;
 	position: relative;
-	top: -50%;
-	left: 40%;
-	
+	overflow: hidden;
+	display: inline-block;
+	margin-bottom: -4px;
+
+}
+
+.container7 .grid_block div img{
+	max-width:100%;
+	height: 100%;
+	object-fit: cover;
+
+}
+
+.item .item-image, .item-caption, .item:hover .item-caption, .item:hover img {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease
+}
+
+.item:hover .bottom-to-top{
+	opacity: 1;
+}
+
+.item:hover .bottom-to-top {
+	top: 0;
+	left: 0
+}
+
+.item-caption {/* почему , при удалении фотки фон белый, а не желтый??? */
+	cursor: default;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 192, 0, 0.5);
+    padding-top: 220px;
+	text-align: center;
+	opacity: 0
+}
+
+.item a{
+	text-decoration: none;
 	
 }
 
-.container7 .grid_block .item:hover i{
-	display: block;
-	opacity: 0.9;
-	
+.container7 .grid_block i{
+	font-size: 40px;
+	color: #fff;
 
 }
-.container7 .grid_block .item:hover{
-	background:#ffc000;
-	opacity: 0.9;
-	
-}
 
-.container7 .grid_block .item:hover img{
-	opacity: 0.5;
-	
-}
  
 .container8 .item{
 	background-color: #2d3e50;
@@ -458,6 +442,7 @@ header .bottom_header nav{
 	line-height: 39px;
 	margin: 0 8px;
 }
+
 .container8 .otstup{
 	margin-top: 75px;
 }
@@ -496,12 +481,11 @@ header .bottom_header nav{
 .container10 .otstup_1 {
 	margin-top: 51px;
 }
+
 .container10 .item_yellow{
 	padding: 0;
 	text-align: center;
 	max-width: 303px;
-	
-	
 } 
 
 .container10 .card1{
@@ -511,8 +495,8 @@ header .bottom_header nav{
 	max-width: 303px;
 	margin-top: -1%;
 	height: 250px;
-
 }
+
 .container10 .card1 h6{
 	font-family: 'Proxima Nova Bold';
 	font-size: 18px;
@@ -521,8 +505,8 @@ header .bottom_header nav{
 	padding-top: 30px;
 	padding-left: 28px;
 	margin: 0px;
-	
 }
+
 .container10  .card1 p{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
@@ -531,15 +515,15 @@ header .bottom_header nav{
 	text-align: left;
 	padding: 35px 20px 0 28px;
 	margin-bottom: 25px;
-	
 }
-.container10 .card1 span{
-		font-family: 'Open Sans', sans-serif;
 
+.container10 .card1 span{
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	color: #2d3e50;
 	text-align: left;
 }
+
 .container10 .data{
 display: flex;
 justify-content: space-between;
@@ -550,30 +534,30 @@ margin: 0 28px;
 	.container8 .item{
 	max-width: 300px;
 	}
+
+	.container5 .static .static1 p:nth-child(1), .container5 .static .static1 p:nth-child(2){
+		width: 105%;
+	}
 }
 
 @media(max-width:1024px){
 	header .bottom_header .menu{
 		display: none;
 	}
-	.container3 {
+	.container3, .container6, .container8, .container10 {
 		padding-top: 20px;
 	}
-
-	.container5 .static {
-		
-		margin-top: 20px;
-
+	.container5 .static .static1 p:nth-child(1), .container5 .static .static1 p:nth-child(2){
+		width: 124%;
 	}
-	.container6{padding-top: 10px;}
+	.container5 .static {
+		margin-top: 20px;
+	}
 
 	.container6 .grid_6{
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: auto;
-	
 	}
-	
-
 }
 
 @media(max-width:992px){
@@ -583,10 +567,12 @@ margin: 0 28px;
 }
 
 @media(max-width:768px){
+
 	.container7 .grid_block{
 		grid-template-columns: 1fr 1fr; /* repeat(2, 1fr) */
 		grid-template-rows: auto;
 	}
+
 	.container7 ul{
 	flex-direction: column;
 	align-items: center;
@@ -596,22 +582,27 @@ margin: 0 28px;
 		margin-top: -1%;
 
 	}
+
 	.container3, .container6{
 		padding-top:5% ;
 	}
+
 	.container3 .cards{
 		flex-wrap: wrap;
 		align-items: center;
-		}
+	}
+
 	.container3 .cards .item{
 		margin:10px auto;
 		position: relative;
 		width: 40%;
 	}
+
 	.container5 .static{
 		margin:0;
 		padding-top: 25px;
 	}
+
 	.container6 .grid_6{
 		grid-template-columns: 350px ;
 		grid-template-rows: auto;
@@ -621,8 +612,7 @@ margin: 0 28px;
 	.container8 .item{
 		max-width: 330px;
 		margin-bottom: 10px;
-
-		}
+	}
 	
 	.container10 .item_yellow{
 		max-width: 330px;
@@ -636,14 +626,24 @@ margin: 0 28px;
 		max-width: 100%;
 	}
 
-	
+	.container5 .static .static1 p:nth-child(1), .container5 .static .static1 p:nth-child(2){
+		width: 0%;
+	}
 }
 
+@media(max-width:576px){
+	.container5 .static .static1 p:nth-child(2),.container5 .static .static1 p:nth-child(1){
+		padding: 0;
+		margin: 0;
+		font-size: 25px;
+	}
+
+}
 
 @media(max-width:425px){
 	.container2 p{
 		font-size:  19px;
-}
+	}
 
 	.container7 .grid_block{
 		grid-template-columns: 1fr; /* repeat(1, 1fr) */
@@ -655,6 +655,7 @@ margin: 0 28px;
 		margin-top: -1%;
 
 	}
+
 	.container2 h2{
 		font-size: 45px;
     	padding-top: 100px;
@@ -671,27 +672,25 @@ margin: 0 28px;
 	}
 
 	.container3 .cards .item{
-			margin:10px auto;
-			position: relative;
-			width: 60%;
-		}
-
+		margin:10px auto;
+		position: relative;
+		width: 60%;
+	}
 
 	.container5 .static {
-			flex-wrap: wrap;
-			align-items: center;
-			padding: 10px;
-
-		}
+		flex-wrap: wrap;
+		align-items: center;
+		padding: 10px;
+	}
 
 	.container5 .static .static1 {
 		width: 40%;
-
 	}
 
 	.container5 .static .static1 p:nth-child(2),.container5 .static .static1 p:nth-child(1){
 		padding: 0;
 		margin: 0;
+		font-size: 25px;
 	}
 
 	.container6 .grid_6 .item6 p{
@@ -706,6 +705,7 @@ margin: 0 28px;
 	.container6 .grid_6{
 		grid-template-columns: 280px ;
 	}
+
 	header .top_header .flex_header{
 		justify-content: center;
 	}
@@ -718,12 +718,12 @@ margin: 0 28px;
 		
 		margin-bottom: 0;
 	}
-
-	
 }
 	@media(max-width:320px){
 		.container2 h2{
 			padding-top: 10px;}
-
+		.item:hover .bottom-to-top{
+			padding-top: 50%;
+		}
 	}
 
